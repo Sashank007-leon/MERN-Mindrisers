@@ -8,7 +8,7 @@ import gojo from "../assets/gojo.jpeg";
 import gojo1 from "../assets/Gojo_Satoru.jpg";
 
 const Testimonials = () => {
-  var settings = {
+  let settings = {
     dots: true,
     infinite: true,
     speed: 500,

@@ -1,19 +1,18 @@
 @import "tailwindcss";
 
-body, html {
+/* body, html {
   overflow-x: hidden;
   background: black;
-}
+} */
 
 /* Default dot color - gray */
 .slick-dots li button:before {
-  color: #9ca3af !important; /* Tailwind gray-500 */
+  color: #000000 !important; 
   font-size: 12px;
-  opacity: 1;
 }
 
 /* Active dot color - white */
 .slick-dots li.slick-active button:before {
-  color: #ffffff !important; /* White */
+  color: #000000 !important; 
   font-size: 14px;
 }
