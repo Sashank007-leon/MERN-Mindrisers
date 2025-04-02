@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Default Light Mode */
+body {
+  background-color: #f8f9fa; /* Light background */
+  color: #000; /* Black text */
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #fff; /* White text */
+}
+
+/* Default dot color - gray */
+.slick-dots li button:before {
+  color: #000000 !important; 
+  font-size: 12px;
+}
+
+/* Active dot color - white */
+.slick-dots li.slick-active button:before {
+  color: #000000 !important; 
+  font-size: 14px;
+}
